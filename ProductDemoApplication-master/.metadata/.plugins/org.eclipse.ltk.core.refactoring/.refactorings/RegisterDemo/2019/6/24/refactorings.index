@@ -1,0 +1,11 @@
+1560160378356	Rename package 'com.example.ProductDemo'
+1560160431419	Delete element
+1560160443895	Rename package 'com.example.ProductDemo.controller'
+1560160498936	Rename package 'com.example.ProductDemo.domain'
+1560160512340	Rename compilation unit 'Product.java'
+1560160630535	Rename package 'com.example.ProductDemo.service'
+1560160652896	Rename type 'ProductDemoService'
+1560160671389	Rename type 'ProductDemoServiceImpl'
+1560160693166	Rename package 'com.example.ProductDemo.repository'
+1560160715481	Rename type 'ProductRepository'
+1560161089533	Delete element

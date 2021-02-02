@@ -1,0 +1,15 @@
+package com.example.RegisterDemo.service;
+
+import java.util.List;
+
+import com.example.RegisterDemo.domain.Product;
+import com.example.RegisterDemo.domain.Register;
+
+public interface RegisterDemoService {
+	public Register savedetails(Register input);
+	public List<Register> getdetails();
+	
+
+//	public List<Product> getAllProducts();
+
+}

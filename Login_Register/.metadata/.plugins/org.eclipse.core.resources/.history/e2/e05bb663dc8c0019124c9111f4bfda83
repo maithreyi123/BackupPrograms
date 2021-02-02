@@ -1,0 +1,9 @@
+package com.example.Registeration.service;
+
+import com.example.Registeration.domain.Register;
+
+public interface RegisterationService {
+
+	Register savedetails(Register input);
+
+}

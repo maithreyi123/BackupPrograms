@@ -1,0 +1,5 @@
+package com.example.Registeration.domain;
+
+public class Register {
+
+}

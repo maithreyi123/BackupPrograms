@@ -1,0 +1,21 @@
+
+#spring.application.name= product
+#server.port=8083
+#spring.data.mongodb.database=productsdb
+#spring.data.mongodb.port=27017
+#spring.data.mongodb.host=localhost
+#spring.ds_mongo.driverClassName=mongodb.jdbc.MongoDriver
+
+
+#eureka.client.register-with-eureka=true
+#eureka.client.fetch-registry=true
+#eureka.client.service-uri.defaultZone=http://localhost:8761/eureka
+
+
+#MongoDB Datsource
+server.port = 9091
+spring.application.name=product
+spring.datasource.mongo.url=jdbc:mongoserver://localhost:27017/test
+spring.datasource.mongo.username =root
+spring.datasource.mongo.password =
+spring.datasource.mongo.driverClassName=mongodb.jdbc.MongoDriver 

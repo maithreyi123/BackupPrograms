@@ -1,0 +1,8 @@
+server.port=8087
+
+spring.application.name=Registration
+spring.data.mongodb.database=Registrationdb
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.uri=mongodb://localhost/Registrationdb
+spring.data.mongodb.username=

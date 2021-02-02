@@ -1,0 +1,63 @@
+package com.example.Registeration.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.Registeration.service.RegisterationService;
+
+@RestController
+@RequestMapping(value = "/api/v1")
+
+public class RegisterationController {
+
+	@Autowired
+	private RegisterationService registerationService;
+
+	
+	public RegisterationController(RegisterationService registerationService) {
+		this.registerationService = registerationService;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	@RequestMapping(value = "/save", method = RequestMethod.GET)
+	public String hello() {
+		return "Hallooo!!";
+
+	}
+	
+	
+	
+	@RequestMapping(value = "/saveUserDetails", method = RequestMethod.POST)
+	public Register savedetails(@RequestBody userRegister input) {
+		Register response = userService.savedetails(input);
+		return response;
+
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,8 @@
+package com.example.Registeration.Repository;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface RegistrationRepo extends CrudRepository<Register, String>{
+
+}
